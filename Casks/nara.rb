@@ -1,9 +1,9 @@
 cask "nara" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.2.0"
-  sha256 arm:   "704d127212f406547224a61c27490d448832b1b5024c6d7738d8a7dafb45cf7e",
-         intel: "c2355ac2da9db014c3898112ff31c1561b23fb9ea6de33d14bcf63550601fef0"
+  version "0.2.1"
+  sha256 arm:   "c76547b3cbb1aeb040ced201d382526a7b15bb6a0de7887779459165870f9af5",
+         intel: "00804dec79ec3c228079f7596a5e2970c0c09136fccc5e327f3c0c9e531c318b"
 
   url "https://github.com/VitorEskes/Nara/releases/download/v#{version}/nara-#{version}-#{arch}.dmg"
   name "Nara"
